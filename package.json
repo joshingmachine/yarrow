@@ -1,0 +1,22 @@
+{
+  "name": "victorias-mobile-flower-shop",
+  "version": "0.1.0",
+  "description": "Shopify theme for Victoria's Mobile Flower Shop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshingmachine/victorias-mobile-flower-shop.git"
+  },
+  "author": "Josh Smith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshingmachine/victorias-mobile-flower-shop/issues"
+  },
+  "homepage": "https://github.com/joshingmachine/victorias-mobile-flower-shop#readme",
+  "devDependencies": {
+    "@shopify/themekit": "^1.1.3"
+  }
+}
