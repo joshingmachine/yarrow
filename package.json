@@ -6,6 +6,8 @@
   "scripts": {
     "deploy:dev": "shopify-themekit deploy --vars.env --env=development",
     "deploy:prod": "shopify-themekit deploy --vars=.env --env=production",
+    "open:dev": "shopify-themekit open --vars=.env --env=development",
+    "open:prod": "shopify-themekit open --vars=.env --env=production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
