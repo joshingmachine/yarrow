@@ -56,17 +56,21 @@
 
         <footer>
             <address class="contact">
-                <span class="contact__street">{{ shop.address.street }}</span>
-                <span class="contact__city">{{ shop.address.city }}</span>,
-                <span class="contact__state">{{ shop.address.province_code }}</span>
-                <span class="contact__zip">{{ shop.address.zip }}</span>
+                <div class="contact__address">
+                    <span class="contact__street">{{ shop.address.street }}</span>
+                    <span class="contact__city">{{ shop.address.city }}</span>,
+                    <span class="contact__state">{{ shop.address.province_code }}</span>
+                    <span class="contact__zip">{{ shop.address.zip }}</span>
+                </div>
 
                 <a class="contact__phone" href="tel:{{ shop.phone }}">{{ shop.phone }}</a>
                 <a class="contact__email" href="mailto:{{ shop.email }}">{{ shop.email }}</a>
 
-                <a class="contact__instagram" href="https://www.instagram.com/victoriasmobileflowershop/">Instagram</a>
-                <a class="contact__facebook" href="https://www.facebook.com/victoriasmobileflowershop">Facebook</a>
-                <a class="contact__twitter" href="https://twitter.com/victoriaspgh">Twitter</a>
+                <div class="contact__social">
+                    <a class="contact__instagram" href="https://www.instagram.com/victoriasmobileflowershop/">Instagram</a>
+                    <a class="contact__facebook" href="https://www.facebook.com/victoriasmobileflowershop">Facebook</a>
+                    <a class="contact__twitter" href="https://twitter.com/victoriaspgh">Twitter</a>
+                </div>
             </address>
         </footer>
     </body>
