@@ -55,6 +55,14 @@
         </main>
 
         <footer>
+            {% if linklists.footer-menu.links != blank %}
+                <nav class="footer-nav">
+                    {% for link in linklists.footer-menu.links %}
+                        <a class="footer-nav__link" href="{{ link.url }}">{{ link.title }}</a>
+                    {% endfor %}
+                </nav>
+            {% endif %}
+
             <address class="contact">
                 {% if shop.address != blank %}
                     <div class="contact__address">
