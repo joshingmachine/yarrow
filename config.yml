@@ -4,3 +4,9 @@ development:
   store: ${DEV_STORE}
   ignores:
   - themekit_ignores
+production:
+  password: ${PROD_PASSWORD}
+  theme_id: ${PROD_THEME_ID}
+  store: ${PROD_STORE}
+  ignores:
+  - themekit_ignores

@@ -4,6 +4,8 @@
   "description": "Shopify theme for Victoria's Mobile Flower Shop",
   "main": "index.js",
   "scripts": {
+    "deploy:dev": "shopify-themekit deploy --vars.env --env=development",
+    "deploy:prod": "shopify-themekit deploy --vars=.env --env=production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
