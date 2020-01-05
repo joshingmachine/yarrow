@@ -1,5 +1,5 @@
 {
-  "name": "victorias-mobile-flower-shop",
+  "name": "yarrow",
   "version": "0.1.0",
   "description": "Shopify theme for Victoria's Mobile Flower Shop",
   "main": "index.js",
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joshingmachine/victorias-mobile-flower-shop.git"
+    "url": "git+https://github.com/joshingmachine/yarrow.git"
   },
   "author": "Josh Smith",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/joshingmachine/victorias-mobile-flower-shop/issues"
+    "url": "https://github.com/joshingmachine/yarrow/issues"
   },
-  "homepage": "https://github.com/joshingmachine/victorias-mobile-flower-shop#readme",
+  "homepage": "https://github.com/joshingmachine/yarrow#readme",
   "devDependencies": {
     "@shopify/themekit": "^1.1.3"
   }
