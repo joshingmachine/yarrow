@@ -12,11 +12,11 @@
         {{ 'application.js' | asset_url | script_tag }}
     </head>
     <body>
-        <a href="#main">Skip to main content</a>
+        <a class="skip-link" href="#main">Skip to main content</a>
 
-        <header>
+        <header class="site__header">
             <nav>
-                <a href="{{ shop.url }}">{{ shop.name }}</a>
+                <a class="site__logo" href="{{ shop.url }}">{{ shop.name }}</a>
 
                 <ul>
                     {% for link in linklists.main-menu.links %}
@@ -50,11 +50,11 @@
             {% endif %}
         </header>
 
-        <main id="main" role="main">
+        <main class="site__body" id="main" role="main">
             {{ content_for_layout }}
         </main>
 
-        <footer>
+        <footer class="site__footer">
             {% if linklists.footer-menu.links != blank %}
                 <nav class="footer-nav">
                     {% for link in linklists.footer-menu.links %}
